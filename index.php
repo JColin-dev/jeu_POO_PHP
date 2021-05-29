@@ -2,8 +2,9 @@
 
 require_once("Character.php");
 
-$character = new Character;
-$character->gainExperience();
-$character->displayExperience();
+$character1 = new Character;
+$character2 = new Character;
+
+$character1->frapper($character2);
 
 ?>

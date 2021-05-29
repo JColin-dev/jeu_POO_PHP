@@ -2,10 +2,10 @@
 
 class Character {
 
-    private $strength;
+    private $strength = 20;
     private $location;
-    private $experience = 50;
-    private $damages;
+    private $experience = 0;
+    private $damages = 0;
 
     public function displayExperience() {
         echo $this->experience;
